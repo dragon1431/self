@@ -1,0 +1,279 @@
+@import url(reset.css);
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+
+/* index.css */
+
+body {
+    background-color: #FFF;
+    font-family: 'Pretendard', sans-serif;
+    color: #58412A;
+}
+
+.all-wrap {
+    width: 1536px;
+    margin: 0 auto;
+}
+
+a {
+    color: #58412A;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 0;
+
+}
+
+header>h1 {
+    font-family: 'Prociono', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+header>nav>a {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0 44px;
+}
+
+.main-art-wrap {
+    width: auto;
+    height: 626px;
+}
+
+.main-art {
+    background: url("../img/background.jpg") 0 0 / cover no-repeat;
+    background-size: 100% 100%;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.main-art>b {
+    margin-top: 50px;
+    color: #5E452D;
+    font-family: 'Prociono', serif;
+    font-size: 3.25rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 87px;
+}
+
+.main-art>p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.main-art>a {
+    font-size: 2rem;
+    line-height: 87px;
+    text-decoration: underline;
+}
+
+.main-content>p {
+    font-family: 'Prociono', serif;
+    font-size: 2.125rem;
+    padding: 126px 0px 62px 0px;
+}
+
+.swiper-slide {
+    position: relative;
+}
+
+.swiper-slide>p>img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.swiper-slide>figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    position: absolute;
+    width: 100%;
+    height: 191px;
+    left: 0;
+    top: 0;
+
+    background-color: #fff;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.swiper-slide:hover>figcaption {
+    opacity: 1;
+}
+
+.swiper-slide>figcaption>b {
+    margin-top: 10%;
+    font-family: 'Prociono', serif;
+    font-size: 1.625rem;
+    font-weight: 400;
+    color: #5E452D;
+}
+
+.swiper-slide>figcaption>p {
+    margin-top: 5%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.main-caption {
+    margin-top: 165px;
+    width: 1536px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-caption>figure>p>img {
+    border-radius: 28px;
+}
+
+.main-caption>figure>figcaption>b {
+    font-family: 'Prociono', serif;
+    font-size: 3.25rem;
+    font-weight: 400;
+}
+
+.main-caption>figure>figcaption>p:nth-child(2) {
+    margin-top: 45px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.main-caption>figure>figcaption>p:nth-child(3) {
+    margin: 100px 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.main-caption>figure>figcaption>a {
+    font-family: 'Prociono', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.caption001 {
+    margin-bottom: 115px;
+}
+
+.caption001>p {
+    float: left;
+    left: 0;
+}
+
+.caption001>figcaption {
+    float: right;
+    right: 0;
+    margin: 175px 40px 0px 0px;
+    width: 580px;
+}
+
+.caption002>p {
+    float: right;
+    right: 0;
+}
+
+.caption002>figcaption {
+    float: left;
+    left: 0;
+    margin: 175px 0px 0px 40px;
+    width: 580px;
+}
+
+footer {
+    background-color: #EEE7E1;
+    padding: 60px 0;
+    margin-top: 215px;
+}
+
+.foot-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 1536px;
+    margin: 0 auto;
+    left: 0;
+    bottom: 0;
+}
+
+.foot-left {
+    font-family: 'Prociono', serif;
+    font-weight: 400;
+}
+
+.foot-left>b {
+    font-size: 1.5rem;
+}
+
+.foot-left>p {
+    padding-top: 20px;
+    font-size: 0.75rem;
+}
+
+.foot-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-right>div {
+    padding: 0 32.5px;
+}
+
+.sitemap {
+    font-family: 'Prociono', serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: underline;
+    line-height: 30px;
+}
+
+.sitemap>b {
+    font-weight: normal;
+}
+
+.sitemap>nav {
+    padding-top: 30px;
+}
+
+.info {
+    font-family: 'Prociono';
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.info>b {
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.info>p {
+    padding-top: 30px;
+}
+
+.cs-center {
+    font-family: 'Prociono';
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.cs-center>b {
+    font-weight: 400;
+}
+
+.cs-center>p {
+    padding-top: 30px;
+}
